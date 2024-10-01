@@ -1,7 +1,7 @@
 import React, { Suspense } from "react";
 import getPost from "@/lib/getPost";
 import getPostComments from "@/lib/getPostComments";
-import Comments from "@/app/components/comments";
+import Comments from "@/app/components/Comments";
 import getAllPosts from "@/lib/getAllPosts";
 
 export async function generateMetadata({ params }) {
